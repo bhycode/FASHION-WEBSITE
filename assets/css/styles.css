@@ -1,0 +1,115 @@
+
+/* Variables */
+:root {
+    --home-div-width:350px;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+}
+
+.header-nav {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: right;
+    
+}
+
+@font-face {
+    font-family: Roboto;
+    src: local("C:\Users\youco\Desktop\GO-WORK\Fashion-Website\assets\fonts\Roboto\Roboto-Regular.ttf");
+    font-size: 200px;
+}
+
+
+.header-nav a {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.header-nav a.active {
+    text-decoration: underline wavy;
+}
+/* HEADER */
+
+
+
+/* HOME HEAD PAGE */
+.home-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.home-div img {
+    margin-top: 50px;
+    border-radius: 5px;
+    width: var(--home-div-width);
+}
+
+/* IMG HOVER ANIMATION */
+.home-div img:hover {
+    animation: home-div-img-animation-shadow 1s infinite;
+}
+@keyframes home-div-img-animation-shadow {
+    0% {
+        box-shadow: 15px 15px 15px #E0F8EC;
+    }
+    50% {
+        box-shadow: 15px 15px 15px #D19F55;
+    }
+    100% {
+        box-shadow: 15px 15px 15px #0000FF;
+    }
+}
+/* IMG HOVER ANIMATION */
+
+
+.home-div p {
+    color: #E0F8EC;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 35px;
+    width: var(--home-div-width);
+    text-transform: uppercase;
+}
+
+/* P HOVER ANIMATION */
+.home-div p:hover {
+    animation: home-div-p-animation-colors 2s infinite;
+}
+@keyframes home-div-p-animation-colors {
+    0% {
+        color: #E0F8EC;
+    }
+    50% {
+        color: #D19F55;
+    }
+    100% {
+        color: #0000FF;
+    }
+}
+/* P HOVER ANIMATION */
+
+/* HOME HEAD PAGE */
+
+
+
