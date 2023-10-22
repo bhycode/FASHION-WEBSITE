@@ -1,0 +1,101 @@
+/* Font */
+.font-test {
+    font-family: 'Roboto';
+    background-color: #9633FF;
+    font-size: 20px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap') format('woff2');
+}
+/* Font */
+
+
+
+.registration-login-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+div .reg-div  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div .reg-div input {
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+    font-size: 14px;
+    outline-color: white;
+    background-color: black;
+    color: white;
+
+}
+
+div .reg-div #signup {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #9633FF;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 10px;
+}
+div .reg-div #signup:active {
+    background-color: #1708e8;
+}
+
+div .reg-div #signup-go {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: gray;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 10px;
+}
+div .reg-div #signup-go:active {
+    background-color: #f04502;
+}
+
+
+
+div .reg-div #signin-go {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: gray;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 10px;
+}
+div .reg-div #signin-go:active {
+    background-color: #f04502;
+}
+
+div .reg-div #signin {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #9633FF;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 10px;
+}
+div .reg-div #signin:active {
+    background-color: #1708e8;
+}

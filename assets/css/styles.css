@@ -25,12 +25,18 @@ header {
     
 }
 
-@font-face {
-    font-family: Roboto;
-    src: local("C:\Users\youco\Desktop\GO-WORK\Fashion-Website\assets\fonts\Roboto\Roboto-Regular.ttf");
-    font-size: 200px;
-}
 
+/* Font */
+.font-test {
+    font-family: 'Roboto';
+    background-color: #9633FF;
+    font-size: 20px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap') format('woff2');
+}
+/* Font */
 
 .header-nav a {
     margin-top: 2%;
@@ -43,7 +49,7 @@ header {
 }
 
 .header-nav a.active {
-    text-decoration: underline wavy;
+    color: #D19F55;
 }
 /* HEADER */
 
@@ -67,19 +73,18 @@ header {
 
 /* IMG HOVER ANIMATION */
 .home-div img:hover {
-    animation: home-div-img-animation-shadow 1s infinite;
+    animation: home-div-img-animation 900ms forwards;
 }
-@keyframes home-div-img-animation-shadow {
+
+@keyframes home-div-img-animation {
     0% {
-        box-shadow: 15px 15px 15px #E0F8EC;
+        transform: scale(100%);
     }
     50% {
-        box-shadow: 15px 15px 15px #D19F55;
-    }
-    100% {
-        box-shadow: 15px 15px 15px #0000FF;
+        transform: scale(150%);
     }
 }
+
 /* IMG HOVER ANIMATION */
 
 
@@ -94,17 +99,14 @@ header {
 
 /* P HOVER ANIMATION */
 .home-div p:hover {
-    animation: home-div-p-animation-colors 2s infinite;
+    animation: home-div-p-animation 100ms infinite;
 }
-@keyframes home-div-p-animation-colors {
+@keyframes home-div-p-animation {
     0% {
         color: #E0F8EC;
     }
     50% {
         color: #D19F55;
-    }
-    100% {
-        color: #0000FF;
     }
 }
 /* P HOVER ANIMATION */
@@ -112,4 +114,140 @@ header {
 /* HOME HEAD PAGE */
 
 
+/* Happy Users Cards Container */
+.hcs-div {
+    width: 100%;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    /* background-color: #0000FF; */
+}
+/* Happy Users Cards Container */
+
+
+/* Happy User Card */
+.hcs-div div {
+    width: 46%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+    border-radius: 5px;
+    background-color: #DBB6C5;
+}
+/* Happy User Card */
+
+/* Happy User Text Card */
+.hcs-div div div{
+    width: 70%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    /* background-color: #ca0b74; */
+}
+/* Happy User Text Card */
+
+.hcs-div div div p {
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.hcs-div div img{
+    width: 150px;
+    height: 150px;
+
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+/* For every category title */
+p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+/* For every category title */
+
+
+
+/* FAQ */
+
+/* FAQs cards */
+.faqs-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* FAQs cards */
+
+
+/* FAQ card */
+.faq-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #DBB6C5;
+}
+/* FAQ card */
+
+/* FAQ text */
+.faq-text {
+    font-size: 20px;
+    color: white;
+    text-align: start;
+}
+/* FAQ text */
+
+/* FAQ question div */
+.faq-question-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+/* FAQ question div */
+
+/* FAQ answer div */
+.faq-answer-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+/* FAQ answer div */
+
+.faq-icon {
+    width: 50px;
+    height: 100%;
+    margin: 5px;
+    fill: white;
+}
+/* FAQ */
