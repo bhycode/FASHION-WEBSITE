@@ -51,6 +51,21 @@ header {
     color: #D19F55;
 }
 
+
+/* Burger menu div */
+.burger-menu-nav {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 5%;
+    left: 77%;
+    background-color: #3f0ed1;
+    z-index: 1500;
+}
+/* Burger menu div */
+
 /* Burger nav */
 .burger-nav {
     width: max-content;
@@ -63,9 +78,6 @@ header {
     margin: 4%;
     padding: 2%;
     background-color: #DBB6C5;
-    position: absolute;
-    top: 5%;
-    left: 77%;
     /* display: none; */
 }
 
@@ -285,3 +297,32 @@ p {
     fill: white;
 }
 /* FAQ */
+
+/* Media Query */
+@media only screen and (min-width: 1280px) {
+    body {
+        background-color: #D19F55;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        background-color: #3f0ed1;
+    }
+}
+
+/* For Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: chartreuse;
+    }
+}
+/* For Tablet */
+
+/* For Phones */
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+}
+/* For Phones */
