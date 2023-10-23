@@ -63,8 +63,9 @@ header {
     margin: 4%;
     padding: 2%;
     background-color: #DBB6C5;
-    top: 50px;
-    float: right;
+    position: absolute;
+    top: 5%;
+    left: 77%;
     /* display: none; */
 }
 

@@ -6,26 +6,27 @@ let sunglasses_category = document.getElementById("products-type5");
 let hat_category = document.getElementById("products-type6");
 
 
-shoes_category.addEventListener("click", function() {
-    alert("Hello!");
+watch_category.addEventListener("click", function() {
+    window.location.href = "products-catalog-watch.html";
 });
 
-watch_category.addEventListener("click", function() {
-    alert("Hello!");
+shoes_category.addEventListener("click", function() {
+    window.location.href = "products-catalog-shoes.html";
 });
+
 
 jacket_category.addEventListener("click", function() {
-    alert("Hello!");
+    window.location.href = "products-catalog-jacket.html";
 });
 
 sneakers_category.addEventListener("click", function() {
-    alert("Hello!");
+    window.location.href = "products-catalog-sneakers.html";
 });
 
 sunglasses_category.addEventListener("click", function() {
-    alert("Hello!");
+    window.location.href = "products-catalog-sunglasses.html";
 });
 
 hat_category.addEventListener("click", function() {
-    alert("Hello!");
+    window.location.href = "products-catalog-hat.html";
 });
