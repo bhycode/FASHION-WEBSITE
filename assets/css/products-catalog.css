@@ -1,0 +1,52 @@
+
+
+
+/* Title */
+.products-catalog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.products-catalog-title {
+    margin-top: 150px;
+}
+/* Title */
+
+
+
+.products-catalog-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.products-catalog-card {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.products-catalog-card p {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    color: black !important;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
