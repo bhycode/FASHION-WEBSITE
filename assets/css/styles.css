@@ -13,7 +13,7 @@
 
 
 body {
-    background-color: black;
+    background-color: black !important;
     font-family: Roboto;
 
 }
@@ -307,8 +307,19 @@ p {
     height: 100%;
     margin: 5px;
     fill: white;
+    cursor: pointer;
 }
 /* FAQ */
+
+
+/* FOOTER */
+footer p {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+/* FOOTER */
+
 
 /* Media Query */
 @media only screen and (min-width: 1280px) {
