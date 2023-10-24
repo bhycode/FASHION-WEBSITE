@@ -13,6 +13,7 @@
 
 
 .registration-login-div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,13 +23,14 @@
 }
 
 div .reg-div  {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 div .reg-div input {
     height: 50px;
-    width: 500px;
+    width: 40%;
     border-radius: 5px;
     border: 1px solid white;
 
@@ -44,7 +46,7 @@ div .reg-div input {
 
 div .reg-div #signup {
     height: 50px;
-    width: 250px;
+    width: 20%;
     border-radius: 30px;
     background-color: #9633FF;
     color: white;
@@ -58,7 +60,7 @@ div .reg-div #signup:active {
 
 div .reg-div #signup-go {
     height: 50px;
-    width: 250px;
+    width: 20%;
     border-radius: 30px;
     background-color: gray;
     color: white;
@@ -74,7 +76,7 @@ div .reg-div #signup-go:active {
 
 div .reg-div #signin-go {
     height: 50px;
-    width: 250px;
+    width: 20%;
     border-radius: 30px;
     background-color: gray;
     color: white;
@@ -88,7 +90,7 @@ div .reg-div #signin-go:active {
 
 div .reg-div #signin {
     height: 50px;
-    width: 250px;
+    width: 20%;
     border-radius: 30px;
     background-color: #9633FF;
     color: white;

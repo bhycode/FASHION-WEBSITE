@@ -51,34 +51,45 @@ header {
     color: #D19F55;
 }
 
-
+/************************** Burger Header ******************************/
+/* Burger nav */
 /* Burger menu div */
-.burger-menu-nav {
-    width: max-content;
+.burger-menu-div {
+    width: 100%;
     height: max-content;
-    display: flex;
-    flex-direction: row;
     position: fixed;
-    top: 5%;
-    left: 77%;
-    background-color: #3f0ed1;
-    z-index: 1500;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+    padding-right: 10px;
+    display: none;
 }
 /* Burger menu div */
 
-/* Burger nav */
+/* Burger menu icon */
+.burger-menu-icon {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+/* Burger menu icon */
+
 .burger-nav {
     width: max-content;
     height: max-content;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 4%;
+    /* margin: 4%; */
     padding: 2%;
     background-color: #DBB6C5;
-    /* display: none; */
+    
+    display: none;
+    box-shadow: 10px 10px 50px rgb(160, 144, 144, 20%);
 }
 
 .burger-nav a {
@@ -96,6 +107,7 @@ header {
 }
 
 /* Burger nav */
+/************************** Burger Header ******************************/
 
 /* HEADER */
 
@@ -216,9 +228,9 @@ header {
 
 
 .hcs-div div img{
-    width: 150px;
-    height: 150px;
-
+    width: 125px;
+    height:125px;
+    
     margin-left: 20px;
     border-radius: 50%;
 }
@@ -301,7 +313,7 @@ p {
 /* Media Query */
 @media only screen and (min-width: 1280px) {
     body {
-        background-color: #D19F55;
+        background-color: black;
     }
 }
 
@@ -313,6 +325,18 @@ p {
 
 /* For Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header {
+        display: none;
+    }
+
+
+    .burger-menu-div {
+        display: block;
+    }
+    .burger-nav {
+        display: none;
+    }
     body {
         background-color: chartreuse;
     }
@@ -321,6 +345,20 @@ p {
 
 /* For Phones */
 @media only screen and (max-width: 767px) {
+
+    header {
+        display: none;
+    }
+
+
+    .burger-menu-div {
+        display: block;
+    }
+    .burger-nav {
+        display: none;
+    }
+
+
     body {
         background-color: blue;
     }

@@ -35,7 +35,7 @@
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    cursor: pointer;
+    cursor: none;
 }
 
 .products-catalog-card p {
