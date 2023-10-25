@@ -12,6 +12,7 @@ function openAnswer(num) {
 
 
 
+// Burger menu
 let burger_menu = document.getElementById("burger-menu");
 let burger_nav = document.getElementById("burger-nav");
 let burger_icon = document.getElementById("burger-icon");
