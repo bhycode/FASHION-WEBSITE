@@ -322,25 +322,32 @@ footer p {
 
 
 /* Media Query */
+/* Large Screens Sizes*/
 @media only screen and (min-width: 1280px) {
     body {
         background-color: black;
     }
 }
+/* Large Screens Sizes*/
 
+/* Medium Screens Sizes */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
     body {
         background-color: #3f0ed1;
     }
 }
+/* Medium Screens Sizes */
 
-/* For Tablet */
+/* For Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     header {
         display: none;
     }
 
+    p {
+        font-size: 20px !important;
+    }
 
     .burger-menu-div {
         display: block;
@@ -351,6 +358,7 @@ footer p {
     body {
         background-color: chartreuse;
     }
+
 }
 /* For Tablet */
 
@@ -359,6 +367,10 @@ footer p {
 
     header {
         display: none;
+    }
+
+    p {
+        font-size: 16px !important;
     }
 
 
@@ -373,5 +385,6 @@ footer p {
     body {
         background-color: blue;
     }
+
 }
 /* For Phones */

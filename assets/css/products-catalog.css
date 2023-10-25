@@ -39,7 +39,7 @@
 }
 
 .products-catalog-card p {
-    width: 100%;
+    width: 90%;
     font-size: 20px;
     text-align: center;
     text-transform: capitalize;
@@ -47,6 +47,7 @@
     font-family: sans-serif;
 
     color: black !important;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: white;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.5);
 
 }
